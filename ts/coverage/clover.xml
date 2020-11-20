@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1605847423907" clover="3.2.0">
+  <project timestamp="1605847423907" name="All files">
+    <metrics statements="30" coveredstatements="30" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6" elements="38" coveredelements="38" complexity="0" loc="30" ncloc="30" packages="1" files="6" classes="6"/>
+    <file name="And.ts" path="/home/benhodge/Desktop/git/training/nand2tetris/ts/src/chips/And.ts">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="11" count="4" type="stmt"/>
+      <line num="12" count="40" type="stmt"/>
+      <line num="13" count="40" type="stmt"/>
+    </file>
+    <file name="Mux.ts" path="/home/benhodge/Desktop/git/training/nand2tetris/ts/src/chips/Mux.ts">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="8" type="stmt"/>
+      <line num="14" count="8" type="stmt"/>
+      <line num="15" count="8" type="stmt"/>
+      <line num="16" count="8" type="stmt"/>
+    </file>
+    <file name="Nand.ts" path="/home/benhodge/Desktop/git/training/nand2tetris/ts/src/chips/Nand.ts">
+      <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="12" count="146" type="cond" truecount="2" falsecount="0"/>
+    </file>
+    <file name="Not.ts" path="/home/benhodge/Desktop/git/training/nand2tetris/ts/src/chips/Not.ts">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="10" count="98" type="stmt"/>
+    </file>
+    <file name="Or.ts" path="/home/benhodge/Desktop/git/training/nand2tetris/ts/src/chips/Or.ts">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="12" count="16" type="stmt"/>
+      <line num="13" count="16" type="stmt"/>
+      <line num="14" count="16" type="stmt"/>
+      <line num="15" count="16" type="stmt"/>
+    </file>
+    <file name="Xor.ts" path="/home/benhodge/Desktop/git/training/nand2tetris/ts/src/chips/Xor.ts">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+    </file>
+  </project>
+</coverage>
