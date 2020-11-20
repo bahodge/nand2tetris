@@ -1,3 +1,5 @@
+import { Bit } from "../Bit";
+
 // Built in
 // truth table
 /**
@@ -7,4 +9,4 @@
  * 1, 1 => 0
  */
 
-export default (a: boolean, b: boolean): boolean => !(a && b);
+export default (a: Bit, b: Bit): Bit => +!(a && b) as Bit;

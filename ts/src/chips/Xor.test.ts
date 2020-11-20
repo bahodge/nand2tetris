@@ -1,27 +1,27 @@
-import Nand from "./Nand";
+import Xor from "./Xor";
 
-describe("Nand", () => {
+describe("Xor", () => {
   it("exists", () => {
-    expect(Nand).toBeDefined();
+    expect(Xor).toBeDefined();
   });
   describe("given args, (0, 0)", () => {
-    it("returns 1", () => {
-      expect(Nand(0, 0)).toBe(1);
+    it("returns 0", () => {
+      expect(Xor(0, 0)).toBe(0);
     });
   });
   describe("given args, (0, 1)", () => {
     it("returns 1", () => {
-      expect(Nand(0, 1)).toBe(1);
+      expect(Xor(0, 1)).toBe(1);
     });
   });
   describe("given args, (1, 0)", () => {
     it("returns 1", () => {
-      expect(Nand(1, 0)).toBe(1);
+      expect(Xor(1, 0)).toBe(1);
     });
   });
   describe("given args, (1, 1)", () => {
     it("returns 0", () => {
-      expect(Nand(1, 1)).toBe(0);
+      expect(Xor(1, 1)).toBe(0);
     });
   });
 });

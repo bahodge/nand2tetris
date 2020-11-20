@@ -1,27 +1,27 @@
-import Nand from "./Nand";
+import Or from "./Or";
 
-describe("Nand", () => {
+describe("Or", () => {
   it("exists", () => {
-    expect(Nand).toBeDefined();
+    expect(Or).toBeDefined();
   });
   describe("given args, (0, 0)", () => {
-    it("returns 1", () => {
-      expect(Nand(0, 0)).toBe(1);
+    it("returns 0", () => {
+      expect(Or(0, 0)).toBe(0);
     });
   });
   describe("given args, (0, 1)", () => {
     it("returns 1", () => {
-      expect(Nand(0, 1)).toBe(1);
+      expect(Or(0, 1)).toBe(1);
     });
   });
   describe("given args, (1, 0)", () => {
     it("returns 1", () => {
-      expect(Nand(1, 0)).toBe(1);
+      expect(Or(1, 0)).toBe(1);
     });
   });
   describe("given args, (1, 1)", () => {
-    it("returns 0", () => {
-      expect(Nand(1, 1)).toBe(0);
+    it("returns 1", () => {
+      expect(Or(1, 1)).toBe(1);
     });
   });
 });
