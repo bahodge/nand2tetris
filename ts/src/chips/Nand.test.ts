@@ -1,4 +1,4 @@
-import Nand from "./Nand";
+import Nand from "./Nand"
 
 describe("Nand", () => {
   it("exists", () => {
@@ -25,3 +25,38 @@ describe("Nand", () => {
     });
   });
 });
+
+// @ponicode
+describe("Nand.default", () => {
+    test("0", () => {
+        let callFunction: any = () => {
+            Nand.default(0, 0)
+        }
+    
+        expect(callFunction).not.toThrow()
+    })
+
+    test("1", () => {
+        let callFunction: any = () => {
+            Nand.default(0, 1)
+        }
+    
+        expect(callFunction).not.toThrow()
+    })
+
+    test("2", () => {
+        let callFunction: any = () => {
+            Nand.default(1, 1)
+        }
+    
+        expect(callFunction).not.toThrow()
+    })
+
+    test("3", () => {
+        let callFunction: any = () => {
+            Nand.default(1, 0)
+        }
+    
+        expect(callFunction).not.toThrow()
+    })
+})
